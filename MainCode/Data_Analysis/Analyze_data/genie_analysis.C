@@ -4114,24 +4114,6 @@ void genie_analysis::Loop() {
 				else if ((reco_pimin + reco_piplus == 1) && reco_piplus == 1){tnryDISp = tnryDISp + 1;}
 				else {tnrnDISm = tnrnDISm + 1; tnrnDISp = tnrnDISp + 1;}
 			}
-			/*
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus != 1){tnrnOTHm = tnrnOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus == 1){tnrnOTHm = tnrnOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus != 1){tnrnOTHm = tnrnOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus == 1){tnrnOTHm = tnrnOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus != 1){tnryOTHm = tnryOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus == 1){tnryOTHm = tnryOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus != 1){tnryOTHm = tnryOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus == 1){tnryOTHm = tnryOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus != 1){tyrnOTHm = tyrnOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus == 1){tyrnOTHm = tyrnOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus != 1){tyrnOTHm = tyrnOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus == 1){tyrnOTHm = tyrnOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus != 1){tyryOTHm = tyryOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus == 1){tyryOTHm = tyryOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus != 1){tyryOTHm = tyryOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus == 1){tyryOTHm = tyryOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				*/
 		}
 
 		else if (Separate_Interaction == 5){ //RES
@@ -4151,24 +4133,6 @@ void genie_analysis::Loop() {
 				if (reco_pimin + reco_piplus == 1){tnryRESm = tnryRESm + 1; tnryRESp = tnryRESp + 1;}
 				else {tnrnRESm = tnrnRESm + 1; tnrnRESp = tnrnRESp + 1;}
 			}
-			/*
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus != 1){tnrnOTHm = tnrnOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus == 1){tnrnOTHm = tnrnOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus != 1){tnrnOTHm = tnrnOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus == 1){tnrnOTHm = tnrnOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus != 1){tnryOTHm = tnryOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus == 1){tnryOTHm = tnryOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus != 1){tnryOTHm = tnryOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus == 1){tnryOTHm = tnryOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus != 1){tyrnOTHm = tyrnOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus == 1){tyrnOTHm = tyrnOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus != 1){tyrnOTHm = tyrnOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus == 1){tyrnOTHm = tyrnOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus != 1){tyryOTHm = tyryOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus == 1){tyryOTHm = tyryOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus != 1){tyryOTHm = tyryOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus == 1){tyryOTHm = tyryOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				*/
 		}
 
 		else{ //other
@@ -4188,24 +4152,6 @@ void genie_analysis::Loop() {
 				if (reco_pimin + reco_piplus == 1){tnryOTHm = tnryOTHm + 1; tnryOTHp = tnryOTHp + 1;}
 				else {tnrnOTHm = tnrnOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
 			}
-			/*
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus != 1){tnrnOTHm = tnrnOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus == 1){tnrnOTHm = tnrnOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus != 1){tnrnOTHm = tnrnOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus == 1){tnrnOTHm = tnrnOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus != 1){tnryOTHm = tnryOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus == 1){tnryOTHm = tnryOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus != 1){tnryOTHm = tnryOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin != 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus == 1){tnryOTHm = tnryOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus != 1){tyrnOTHm = tyrnOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus != 1 && reco_piplus == 1){tyrnOTHm = tyrnOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus != 1){tyrnOTHm = tyrnOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin != 1 && true_piplus == 1 && reco_piplus == 1){tyrnOTHm = tyrnOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus != 1){tyryOTHm = tyryOTHm + 1; tnrnOTHp = tnrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus != 1 && reco_piplus == 1){tyryOTHm = tyryOTHm + 1; tnryOTHp = tnryOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus != 1){tyryOTHm = tyryOTHm + 1; tyrnOTHp = tyrnOTHp + 1;}
-				if (true_pimin == 1 && reco_pimin == 1 && true_piplus == 1 && reco_piplus == 1){tyryOTHm = tyryOTHm + 1; tyryOTHp = tyryOTHp + 1;}
-				*/
 		}
 
 	} //end of event loop (jentry)
