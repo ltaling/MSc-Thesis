@@ -1,4 +1,6 @@
 // This macro creates a heat map of the number of events
+// The heat map I made looks terrible so I simply printed out the values to the screen and made the plots in Python
+// You can either do the same, or you can improve this code so they look good in ROOT
 
 #include <TFile.h>
 #include <TH2I.h>
@@ -76,7 +78,8 @@ void h2_event_heat_map (std::string file_name, int type){
     title = title + "Total";
   }
 
-  h2_heatmap->Print("all");
+  h2_heatmap->Print("all"); // Print the all values to the screen
+  // Note: Underflow bins are also printed, so any bin coordinate with a 0 in it (e.g. [0,1] or [2,0] etc.) will have a 0 entry and should be ignored
 
   TCanvas* c;
   c = new TCanvas(TString::Format("c"), TString::Format("c"), 800, 600);
