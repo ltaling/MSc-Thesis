@@ -1,4 +1,6 @@
-This folder contains the program that sorts out the GENIE file into the histograms and also counts events. Once the folder is downloaded, you need to edit the filepaths to match your directory. Assuming the folder structure is kept the same, only line 295 needs to be edited.
+## How To Use The Genie Analysis Program
+
+This folder contains the program that sorts out the GENIE file into the histograms and also counts events. Once the folder is downloaded, you need to edit the filepaths to match your directory. Assuming the folder structure is kept the same, only line 295 needs to be edited which is the location of the *output* file.
 
 Note: It has been heavily edited with `/* ... */` commenting out large parts of code to improve the running time. As a result, many features are missing and may need to be "reactivated" depending on what the project requires. All edits made by me are labelled with `lataling` before it so just do `ctrl+f` and search for "lataling" to find all edits made. 
 
