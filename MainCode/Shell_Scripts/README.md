@@ -5,7 +5,8 @@ These scripts can be run within a directory and they'll run all the code for you
 
 ### File Contents
 
-The file
+- File_Maker.sh - runs the Genie analysis with the input parameters for all targets and energies
+- Graph_Maker_2.sh - draws all pion related histograms for the target/energy specified in the code (to change the target/energy, you'll need to edit the source code) 
 
 ## Once downloaded
 If you try to run it, you'll most likely receive an error. To make it executable, do the following steps:
